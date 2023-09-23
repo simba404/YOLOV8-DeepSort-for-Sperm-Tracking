@@ -1,0 +1,32 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\Bristol Project\dataset\Datasets\VISEM0.1+SVIA+Bristol_same
+train: images/train
+val: images/val
+test:  # test images (optional)
+
+#path: visem3
+#train: [images/train/11,
+#        images/train/12,
+#        images/train/13,
+#        images/train/14,
+#        images/train/15,
+#        images/train/19,
+#        images/train/21,
+#        images/train/22,
+#        images/train/23,
+#        images/train/24,
+#        images/train/29,
+#        images/train/30,
+#]
+#val: [images/val/35,
+#      images/val/36,
+#      images/val/38,
+#      images/val/47,
+#]
+#test:  # test images (optional)
+
+# Classes
+names:
+  0: S
+  1: Impurity
